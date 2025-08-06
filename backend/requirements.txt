@@ -1,4 +1,20 @@
-flask
-kafka-python
-flask-socketio
-eventlet
+Flask==2.3.2
+flask-cors==4.0.0
+flask-socketio==5.3.6
+
+# Kafka
+kafka-python==2.0.2
+
+# Database
+psycopg2-binary==2.9.9  # TimescaleDB (PostgreSQL driver)
+neo4j==5.16.0
+
+# ML & GNN
+torch==2.2.2
+torch-geometric==2.5.0
+torch-scatter==2.1.2
+torch-sparse==0.6.18
+numpy==1.26.4
+
+# Utility
+pandas==2.2.2
